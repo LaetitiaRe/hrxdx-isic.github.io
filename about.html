@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href ="reference.css">
+    <title>ISIC2022</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">ISIC 2022</h2>
+            <div class="toggle"></div>
+        
+        </header>
+
+        <video src="explore.mp4" muted ></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>About</h2>
+            <h3>The ISIC Conference</h3>
+            <h3>&nbsp&nbsp&nbsp&nbsp</h3>
+            <div style="background: rgba(6, 26, 78, 0.4);text-align:left; vertical-align: middle; padding:20px 47px;"> <p>The Information Seeking in Context (ISIC) conference is the academic home of the Information Behavior research community. The biennial conference focuses on contextualized information activities, expressed in different forms such as ‘information behavior’, ‘information practice’, ‘information seeking’, ‘information experience’ and others.
+
+                ISIC conferences promote the interdisciplinary study of information research influenced by fields such as information science, information studies, library studies, communication studies, computer science, education, information management, information systems, management science, psychology, social psychology, sociology, and other disciplines. ISIC is a conference for research papers exploring information as a rich site of study, going beyond a sole focus on technological aspects and exploring a wide variety of contexts. Previous conference proceedings can be found here.
+                
+                The ISIC conference is a platform for a broad and open community where all attendees can engage in an inclusive, safe, and respectful conference environment.</p> </div>
+        
+        </div>
+
+        <ul class="social">
+            <li><a href="#"><img src="facebook.png" alt="" /></a></li>
+            <li><a href="#"><img src="twitter.png" alt="" /></a></li>
+            <li><a href="#"><img src="instagram.png" alt="" /></a></li>
+           </ul>
+
+        <div class="wrapper">
+            <img src="ISIC.png" alt="">
+        </div>
+        
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="#">Program</a></li>
+            <li><a href="#">Organisers</a></li>
+            <li><a href="#">Registration</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Accomodations</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+    </script>
+</body>
+</html>
